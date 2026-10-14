@@ -54,6 +54,7 @@ data-warehouse-project/
 ├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
 │   ├── source_crm/                     # CRM source: customers, products, sales details
 │   ├── source_erp/                     # ERP source: customer birthdates and gender, locations, product categories
+│   ├── README.md                       # Datasets overview
 │
 ├── docs/                               # Project documentation and architecture details
 │   ├── data_architecture.png           # The project's architecture (bronze, silver, gold)
