@@ -54,7 +54,7 @@ data-warehouse-project/
 ├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
 │   ├── source_crm/                     # CRM source: customers, products, sales details
 │   ├── source_erp/                     # ERP source: customer birthdates and gender, locations, product categories
-│   ├── README.md                       # Datasets overview
+│   └── README.md                       # Datasets overview
 │
 ├── docs/                               # Project documentation and architecture details
 │   ├── data_architecture.png           # The project's architecture (bronze, silver, gold)
@@ -63,13 +63,13 @@ data-warehouse-project/
 │   ├── data_model.png                  # Data model (star schema)
 │   ├── ETL.png                         # The ETL techniques and methods used
 │   ├── data_catalog.md                 # Catalog of the gold layer, field descriptions and metadata
-│   ├── naming_conventions.md           # Consistent naming guidelines for tables, columns, and files
+│   └── naming_conventions.md           # Consistent naming guidelines for tables, columns, and files
 │
 ├── scripts/                            # SQL scripts for ETL and transformations
 │   ├── init_database.sql               # Creates the database and the three schemas
 │   ├── bronze/                         # Scripts for extracting and loading raw data
 │   ├── silver/                         # Scripts for cleaning and transforming data
-│   ├── gold/                           # Scripts for creating analytical models
+│   └── gold/                           # Scripts for creating analytical models
 │
 ├── tests/                              # Quality checks for the silver and gold layers
 │
