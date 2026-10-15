@@ -32,7 +32,7 @@ This project involves:
 ## PROJECT REQUIREMENTS
 
 
-### Building the Data Warehouse (Data Engineering)
+### Building the Data Warehouse
 
 #### Objective
 Develop a modern data warehouse using SQL Server to conslidate sales data, enablinng analytical reporting and informed decision-making.
